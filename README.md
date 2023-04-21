@@ -1,26 +1,55 @@
-Milestone 2 update.  
+
+Milestone 3 update
+
+1) The front-end and back-end engineers jointly completed the implementation of the
+
+dashboard. The storage for embeddings will be a directory where they will be saved, so   
+
+no additional work is needed for that step. The materials concerning dashboard can be    
+
+found in the directory dashboard. Additionally, we provide the link to figma:
+
+[Figma](https://www.figma.com/file/dlQ5HRtSNXH7uoOOTzgPmv/Book-Recommendation?node-id=0-1&t=zrcmUyulWE04BKUb-0)
+
+2) The data scientist and data analyst completed the codes for embedding extraction
+
+from book description. The embedding extraction is complete, and the results are    
+
+available in the following google drive link:    
+
+[MA group project data - Google Drive](https://drive.google.com/drive/u/1/folders/1y6EMNzfI1V4WGgsLltSNStKR4yxrrCZN)    
+
+where zangak_embeddings must have been in data/embeddings.    
+
+A small note is that the example of translation results published during the milestone    
+
+have been replaced with full translated dataframe.
+
+---
+
+Milestone 2 update.   
 
 1) The front-end engineer completed the creation of the dashboard design. The design
 
-can be found with the following path in github repo:  
+can be found with the following path in github repo:
 
-dashboard_design/design.pdf  
+dashboard_design/design.pdf
 
-Or alternatively it can be found by the following google drive link that is shared with  
+Or alternatively it can be found by the following google drive link that is shared with
 
 the instructor:  [diagrams.net](https://app.diagrams.net/#G1_A8RPBToDKyv-RBb4rSJMD06Td9Q8Xaq)
 
-There are two options to go with, and we are inclined to go with option 2 (case 2 in the   
+There are two options to go with, and we are inclined to go with option 2 (case 2 in the
 
-diagram).  
+diagram).
 
 2) The data analyst and data scientist completed the codes for scraping the data from
 
-zangak web page, cleaned the dataset and translated it. The source codes can be found   
+zangak web page, cleaned the dataset and translated it. The source codes can be found
 
-in directory src, and there are executable shell scripts written at the root directory for   
+in directory src, and there are executable shell scripts written at the root directory for
 
-convenience of use. An important note is that after each scraping a small manual work is  
+convenience of use. An important note is that after each scraping a small manual work is
 
 needed before running the second executable. The datasets are not typically pushed to
 
@@ -34,17 +63,17 @@ zangak_translate must have been in data/translated/
 
 The link: [MA group project data - Google Drive](https://drive.google.com/drive/u/1/folders/1y6EMNzfI1V4WGgsLltSNStKR4yxrrCZN)
 
-IMPORTANT NOTE: Since the translation script is running long, the dataframe in 
+IMPORTANT NOTE: Since the translation script is running long, the dataframe in
 
 folder zangak_translate is just a sample to demonstrate what the result will look like.
 
-The script is running on the whole dataset by the time of pushing current work to github,  
+The script is running on the whole dataset by the time of pushing current work to github,
 
-and the sample folder will be replaced by the original one on google drive as the script 
+and the sample folder will be replaced by the original one on google drive as the script
 
 completes running.
 
-________________________________________________________________________________________________
+---
 
 Finding a book one will love reading can be difficult with so many options available.
 A recommendation system can make the process quicker and more effective. They can make
