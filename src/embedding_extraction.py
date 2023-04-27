@@ -19,7 +19,7 @@ translated_df_path = f'data/translated/{args.translated_data_dir_name}/dataframe
 current_dir = os.getcwd()
 
 embeddings_dir = f'data/embeddings/{args.embeddings_dir_name}'
-embeddings_df_path = f'{embeddings_dir}/dataframe.csv'
+embeddings_df_path = f'{embeddings_dir}/dataframe.parquet'
 config_path = f'{embeddings_dir}/config.yaml'
 
 #### Making the directory ####
@@ -30,7 +30,7 @@ os.makedirs(embeddings_dir)
 #### Reading the translated dataframe ####
 df= pd.read_csv(translated_df_path).drop('index', axis=1)
 
-#### Main operations ####
+# #### Main operations ####
 nlp = spacy.load('en_core_web_md')
 
 text_vectors = []
@@ -40,7 +40,7 @@ df['embedding'] = text_vectors
 
 df = df[['name','link','orig_text','embedding']]
 
-df.to_csv(embeddings_df_path, index=False)
+df.to_parquet(embeddings_df_path, index=False)
 
 #### Saving the data of the experiment
 cur_time = datetime.datetime.now().replace(microsecond=0).strftime('%d-%B-%Y %H:%M')
