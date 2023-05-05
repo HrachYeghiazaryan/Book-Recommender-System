@@ -38,7 +38,7 @@ for doc in nlp.pipe(df['trans_text']):
     text_vectors.append(doc.vector)
 df['embedding'] = text_vectors
 
-df = df[['name','link','orig_text','embedding']]
+df = df[['name','link','orig_text','embedding']].fillna('This book has no description.')
 
 df.to_parquet(embeddings_df_path, index=False)
 

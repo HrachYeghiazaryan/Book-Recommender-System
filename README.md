@@ -1,11 +1,29 @@
 
+
+Milestone 4 update
+
+1) The front-end and back-end engineers jointly deployed the dashboard.
+2) The future plans are, if we will manage to do that during this course
+
+update the search system so that it takes as input also books. Moreover,
+
+we have ideas of integraton of chatGPT to generate descriptions for the 
+
+books. The updated system will work the way that it will take a book from
+
+a much larger database, and suggest books like that from Zangak database.
+
+From business point of view it will have a larger application scale.
+
+---
+
 Milestone 3 update
 
 1) The front-end and back-end engineers jointly completed the implementation of the
 
-dashboard. The storage for embeddings will be a directory where they will be saved, so   
+dashboard. The storage for embeddings will be a directory where they will be saved, so
 
-no additional work is needed for that step. The materials concerning dashboard can be    
+no additional work is needed for that step. The materials concerning dashboard can be
 
 found in the directory dashboard. Additionally, we provide the link to figma:
 
@@ -13,21 +31,21 @@ found in the directory dashboard. Additionally, we provide the link to figma:
 
 2) The data scientist and data analyst completed the codes for embedding extraction
 
-from book description. The embedding extraction is complete, and the results are    
+from book description. The embedding extraction is complete, and the results are
 
-available in the following google drive link:    
+available in the following google drive link:
 
-[MA group project data - Google Drive](https://drive.google.com/drive/u/1/folders/1y6EMNzfI1V4WGgsLltSNStKR4yxrrCZN)    
+[MA group project data - Google Drive](https://drive.google.com/drive/u/1/folders/1y6EMNzfI1V4WGgsLltSNStKR4yxrrCZN)
 
-where zangak_embeddings must have been in data/embeddings.    
+where zangak_embeddings must have been in data/embeddings.
 
-A small note is that the example of translation results published during the milestone    
+A small note is that the example of translation results published during the milestone
 
 have been replaced with full translated dataframe.
 
 ---
 
-Milestone 2 update.   
+Milestone 2 update.
 
 1) The front-end engineer completed the creation of the dashboard design. The design
 
