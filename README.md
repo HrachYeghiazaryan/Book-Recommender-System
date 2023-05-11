@@ -1,4 +1,22 @@
+Before presentation update
 
+In the end, we've changed our business problem for this moment. In the
+
+beggining we thought of solving the problem that the user inputs a book
+
+and finds other books similar to that, now we've changed the objective
+
+a little bit and instead of taking a book as an input we take a text as an 
+
+input and the algorithm finds the books that have description best matching
+
+the input text.
+
+In addition, we attach the link for our presentation: 
+
+[Book Recommendation - Presentation](https://www.canva.com/design/DAFinm836II/qq9IYZwWNP7eP5u0h2NeHg/edit)
+
+---
 
 Milestone 4 update
 
@@ -7,7 +25,7 @@ Milestone 4 update
 
 update the search system so that it takes as input also books. Moreover,
 
-we have ideas of integraton of chatGPT to generate descriptions for the 
+we have ideas of integraton of chatGPT to generate descriptions for the
 
 books. The updated system will work the way that it will take a book from
 
